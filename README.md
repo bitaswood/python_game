@@ -11,4 +11,4 @@ python gamer.py
 
 * 2048
 
-##### `CREATED BY BITASWOOD!`
+`CREATED BY BITASWOOD!`
