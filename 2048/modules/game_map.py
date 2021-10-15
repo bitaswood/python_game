@@ -1,5 +1,5 @@
 '''
-    Name: map.py
+    Name: game_map.py
     Detail: Define the main UI part for the 2048 game, include map, score.
     Example:
     ---------------------------------------------------
