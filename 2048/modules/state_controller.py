@@ -1,5 +1,5 @@
 '''
-    Name: state_update.py
+    Name: state_controller.py
     Detail: Update the checkboard state and score by the player input.
 '''
 
