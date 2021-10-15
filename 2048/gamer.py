@@ -1,5 +1,5 @@
 '''
-    Name: main.py
+    Name: gamer.py
     Detail: The main play part of 2048.
 '''
 
