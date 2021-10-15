@@ -11,7 +11,7 @@ import numpy as np
 '''
     Control the state and the score.
 '''
-class StateControler():
+class StateController():
 
     # ------ Init the state ------ #
     def __init__(self):
