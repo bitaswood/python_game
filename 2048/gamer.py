@@ -6,7 +6,7 @@
 
 import msvcrt
 from modules.game_map import GameMap
-from modules.state_controler import StateControler
+from modules.state_controller import StateController
 
 
 '''
@@ -14,11 +14,11 @@ from modules.state_controler import StateControler
 '''
 class Gamer():
 
-    # ------ Init the checkboard and state controler ------ #
+    # ------ Init the checkboard and state controller ------ #
     def __init__(self):
 
         self.game_map = GameMap()
-        self.state_controler = StateControler()
+        self.state_controller = StateController()
 
     # ------ Check the press ------ #
     def check_press(self, press):
@@ -47,13 +47,13 @@ class Gamer():
         while True:
 
             # Get the init state and score
-            state, score = self.state_controler.state_update(operation)
+            state, score = self.state_controller.state_update(operation)
 
             # Show the map
             self.game_map.show(state, score)
 
             # Check whether it is game over
-            game_over = self.state_controler.game_over
+            game_over = self.state_controller.game_over
             if game_over:
                 print('GAME OVER!')
                 return
@@ -66,7 +66,7 @@ class Gamer():
             # Restart the game
             if press == 'r' or press == 'R':
                 self.game_map = GameMap()
-                self.state_controler = StateControler()
+                self.state_controller = StateController()
                 operation = None
 
             # Quit the game
