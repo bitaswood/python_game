@@ -10,5 +10,6 @@ python gamer.py
 #### GAME LIST
 
 * 2048
+* Snake
 
 `Created by PurplePotato! Thanks!`
